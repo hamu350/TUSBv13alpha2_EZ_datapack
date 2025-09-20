@@ -13,8 +13,7 @@
   "parent": "advancement:tusb_ez/fishing_count",
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:fishing_rod_hooked",
-      "conditions": {}
+      "trigger": "minecraft:impossible"
     }
   },
   "rewards": {
