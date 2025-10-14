@@ -156,8 +156,6 @@ scoreboard objectives add ParalysisDebaria dummy {"text":"パラライズデバ�
 scoreboard objectives add ConfusionDebaria dummy {"text":"コンフュージョンデバリア効果時間"}
 scoreboard objectives add DiseaseDebaria dummy {"text":"ディズィーズデバリア効果時間"}
 scoreboard objectives add DoomDebaria dummy {"text":"ドゥームデバリア効果時間"}
-# 追加： アイランドチェックモード切り替え
-scoreboard objectives add IslandCheckMode dummy {"text":"アイランドチェックモード切り替え"}
 
 ###バースト ボスバー
 bossbar add skill:burst {"translate":"バーストゲージ","italic":true,"bold":true}
@@ -204,10 +202,6 @@ scoreboard objectives add ChangeDifficulty trigger {"text":"難易度変更"}
 scoreboard objectives add TipsSuppressFlag dummy {"text":"TIPS抑制フラグ"}
 scoreboard objectives add TipsSupTrigger trigger {"text":"TIPS抑制トリガー"}
 
-# 追加： EZ_TIPS
-scoreboard objectives add EZTipsSuppressFlag dummy {"text":"EZ_TIPS抑制フラグ"}
-scoreboard objectives add EZTipsSupTrigger trigger {"text":"EZ_TIPS抑制トリガー"}
-
 scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
 scoreboard objectives add SneakTrigger dummy {"text":"スニーク累積時間"}
 scoreboard objectives add SneakFrequency dummy {"text":"スニーク頻度"}
@@ -222,9 +216,6 @@ scoreboard objectives add Talk minecraft.custom:talked_to_villager {"text":"会�
 scoreboard objectives add Trade minecraft.custom:traded_with_villager {"text":"取引回数"}
 scoreboard objectives add kill trigger {"text":"個人killフラグ"}
 scoreboard objectives add UseEnderPearl minecraft.used:minecraft.ender_pearl {"text":"エンダーパールを使った回数"}
-
-# 追加： 釣りした回数
-scoreboard objectives add FishingCount dummy {"text": "釣りした回数"}
 
 ###チーム作成
 team add NoCollision {"text":"衝突判定なし"}
@@ -245,20 +236,6 @@ team modify LightPurple color light_purple
 team add Gold {"text":"黄色チーム"}
 team modify Gold color gold
 
-### 追加： 難易度カラーチーム
-team add VeryEasy {"text":"とても簡単"}
-team modify VeryEasy color aqua
-team add Easy {"text":"とても簡単"}
-team modify Easy color green
-team add Normal {"text":"とても簡単"}
-team modify Normal color yellow
-team add Hard {"text":"とても簡単"}
-team modify Hard color red
-team add VeryHard {"text":"とても簡単"}
-team modify VeryHard color light_purple
-team add Untenable {"text":"????"}
-team modify Untenable color dark_purple
-
 #時間初期化
 execute unless score $Hours Count matches 0.. run scoreboard players set $Hours Count 0
 execute unless score $Minutes Count matches 0.. run scoreboard players set $Minutes Count 0
@@ -278,8 +255,8 @@ function smart_motion:core/load_once
 #スキルデータ
 function skill:data/
 
-#TIPSデータ
-function settings:player/tips
+# 追加： TIPSデータはEZのload_onceに移動
+#function settings:player/tips
 
 #飛空島ゲート駅schedule開始
 function area:flying_islands_gate/change
@@ -311,3 +288,6 @@ execute unless data storage main: {debug:1b} run function settings:alpha_debug/
 
 # 固定村人復帰地点の設定
 execute unless data storage main: {debug:1b} run function area:villager_point/init
+
+# 追加： EZ用load_once
+function tusb_ez:main/load_once
