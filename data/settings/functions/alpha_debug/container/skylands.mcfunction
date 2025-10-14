@@ -91,7 +91,7 @@ execute in area:skylands positioned -102 18 -707 run data merge block ~ ~ ~ {Cus
 
 ### 元の拠点作成キットの位置に深層岩
 execute in area:skylands positioned 7 19 -579 run forceload add ~ ~
-setblock 7 19 -579 minecraft:deepslate
+setblock 7 19 -579 minecraft:deepslate replace
 
 execute in area:skylands positioned 7 22 -583 run forceload add ~ ~
 execute in area:skylands positioned 7 22 -583 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank01_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank01_chest_single/single_06_currency"}
