@@ -9,7 +9,7 @@
 ➝最初の分岐
 
 
-・advancement:ez_tips/secret(00-22)
+・advancement:ez_tips/secret(00-23)
 
 ➝EZ_TIPSの内容と同じ
 

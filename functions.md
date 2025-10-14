@@ -105,6 +105,10 @@
 
 ・難易度カラーチーム VeryEasy Easy Normal Hard VeryHard Untenable を追加
 
+## main:load
+
+・# EZが入ってなかったらEZload_onceを起動する処理を追加
+
 
 ## main:one_second
 
@@ -424,3 +428,11 @@
 ## tutorial_alpha:skill/burst/act1
 
 ・バースト内容変更
+
+## tusb_ez:main/load_once
+
+・TUSB_EZ導入用初期処理
+
+## tusb_ez:player/functions/leave_game
+
+・TUSB_EZ途中導入処理
