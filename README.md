@@ -8,7 +8,7 @@ Minecraft 配布ワールド 「The Unusual SkyBlock v13α EZ」データパッ�
 
 リリース用 Branch 1.19.4
 
-制作者
+### 制作者
 
 ・hamu350
 
@@ -16,7 +16,7 @@ Minecraft 配布ワールド 「The Unusual SkyBlock v13α EZ」データパッ�
 
 ・Arisui321
 
-.mdについて
+### .mdについて
 
 ・advancements.md
 ➝アドバンスメントまとめ
@@ -39,3 +39,5 @@ Minecraft 配布ワールド 「The Unusual SkyBlock v13α EZ」データパッ�
 > [!NOTE]
 > Minecraft 公式製品ではありません。Mojang から承認されておらず、Mojang とは関係ありません。  
 > Not an official Minecraft product, not endorsed by or affiliated with Mojang.
+>
+> この作品はTheUnusualSkyBlockの非公式二次創作です
