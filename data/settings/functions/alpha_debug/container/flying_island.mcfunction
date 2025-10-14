@@ -238,9 +238,3 @@ execute in area:flying_island positioned -803 9 -669 run forceload add ~ ~
 execute in area:flying_island positioned -803 9 -669 run data merge block ~ ~ ~ {CustomName:'{"translate":"飛空島の罠ディスペンサー","color":"#FF0000","bold":true,"italic":false}',Lock:"item:chest/flying_island/trap/trap_dispenser",LootTable:"item:chest/flying_island/trap/trap_dispenser"}
 execute in area:flying_island positioned -814 129 -653 run forceload add ~ ~
 execute in area:flying_island positioned -814 129 -653 run data merge block ~ ~ ~ {CustomName:'{"translate":"飛空島の罠ディスペンサー","color":"#FF0000","bold":true,"italic":false}',Lock:"item:chest/flying_island/trap/trap_dispenser",LootTable:"item:chest/flying_island/trap/trap_dispenser"}
-# 追加： 頂上のディスペンサー設置
-execute in area:flying_island positioned -726 186 -807 run forceload add ~ ~
-execute in area:flying_island positioned -727 186 -807 run forceload add ~ ~
-execute in area:flying_island positioned -727 186 -807 run setblock ~ ~ ~ minecraft:warped_sign[rotation=4]{GlowingText: 1b, Color: "black", Text4: '{"text":""}', Text3: '{"text":"入れてもいいのよ？"}', Text2: '{"text":"メガトンエメラルド"}', Text1: '{"text":"たーっくさん"}'}
-execute in area:flying_island positioned -726 186 -807 run setblock ~ ~ ~ minecraft:dropper[facing=west]{CustomName:'{"bold":true,"color":"dark_green","text":"頂上のディスペンサー"}'} replace
-execute in area:flying_island run forceload remove all
