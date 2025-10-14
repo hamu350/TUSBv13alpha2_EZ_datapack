@@ -10,7 +10,7 @@ tellraw @s [" ",{"translate":"[%1$s]","with":[{"translate":"TIPS"}]}," ",{"trans
 tellraw @s [{"translate":"[%1$s]","color":"#b7b7b7","with":[[" ",{"translate":"通常世界"}," "]]},{"text":" 5/5","color":"#FFFFFF"}]
 
 tellraw @s [{"translate":"難易度別の色分け  ","color": "white"},{"translate": "とても簡単 ","color": "aqua"},{"translate": "簡単 ","color": "green"},{"translate": "普通 ","color": "yellow"},{"translate": "難しい ","color": "red"},{"translate": "とても難しい","color": "light_purple"}]
-tellraw @s [{"translate":"エンドポータル島","color":"light_purple","clickEvent": {"action": "run_command","value": "/trigger ChangeSettings set 444"}}," : ",{"storage":"area:","nbt":"capture.skylands{045:0}.045","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{045:1}.045","font":"ender_eye","color": "white"}]
+tellraw @s [{"translate":"エンドポータル島","color":"light_purple","clickEvent": {"action": "run_command","value": "/trigger ChangeSettings set 445"}}," : ",{"storage":"area:","nbt":"capture.skylands{045:0}.045","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{045:1}.045","font":"ender_eye","color": "white"}]
 tellraw @s [{"translate":"混沌群島","color":"dark_purple","clickEvent": {"action": "run_command","value": "/trigger ChangeSettings set 446"}},{"translate":" : ","color": "white"},{"storage":"area:","nbt":"capture.skylands{046:0}.046","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{046:1}.046","font":"ender_eye","color": "white"}]
 tellraw @s ""
 tellraw @s ""
