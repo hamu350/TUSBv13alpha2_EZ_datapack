@@ -42,6 +42,8 @@
 
 - 罠産のアンノウンmobから「お楽しみメモリスター(Rank 1,2,3,3EX)」が落ちるように
 
+- エリートmobのドロップにお楽しみメモリスターRank2を追加
+
 ## ルートテーブルの上方修正
 
 - item:group/magic_stone/tier2_3/harvest
