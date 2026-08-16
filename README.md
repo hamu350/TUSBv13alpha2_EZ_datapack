@@ -1,6 +1,6 @@
 # TheUnusualSkyBlock v13α EZ
 
-この作品はTheUnusualSkyBlockの非公式二次創作です
+**この作品はTheUnusualSkyBlockの非公式二次創作です**
 
 ![Minecraft version](https://img.shields.io/badge/version-1.19.4-blue.svg)
 
@@ -18,23 +18,11 @@ Minecraft 配布ワールド 「The Unusual SkyBlock v13α EZ」データパッ�
 
 ### .mdについて
 
-・advancements.md
-➝アドバンスメントまとめ
+- description.md
+主な変更点まとめ
 
-・description.md
-➝主な変更点まとめ
-
-・function.md
-➝ファンクションまとめ
-
-・loot.md
-➝ルートテーブルまとめ
-
-・predicates.md
-➝predicatesまとめ
-
-・tags.md
-➝tagsまとめ
+- ルートテーブルの詳細＋隠し要素.md
+ネタバレ注意の仕様変更まとめ
 
 > [!NOTE]
 > Minecraft 公式製品ではありません。Mojang から承認されておらず、Mojang とは関係ありません。  
