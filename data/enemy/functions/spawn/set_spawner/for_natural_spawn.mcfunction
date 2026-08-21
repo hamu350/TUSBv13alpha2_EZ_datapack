@@ -15,4 +15,4 @@ execute if data storage tusb_mob: Extra{MutatedSpawn:1b} run data modify storage
 # 追加： お楽しみランク2をドロップするように
 execute if data storage tusb_mob: Extra{MutatedSpawn:1b} in area:control_area run data modify block 2 3 2 Text1 set value '[{"text":" ","font":"default"},{"text":"E","font":"icon"},{"text":" ","font":"default"},{"nbt":"SpawnData.CustomName","storage":"tusb_mob:","font":"default","interpret":true}]'
 execute if data storage tusb_mob: Extra{MutatedSpawn:1b} in area:control_area run data modify storage tusb_mob: SpawnData.CustomName set from block 2 3 2 Text1
-execute if data storage tusb_mob: Extra{MutatedSpawn:1b} in area:control_area run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1]."遅延ステータス"."ステータス".LootTable append value [{Loot:"item:item/carrot_on_a_stick/enjoy_memory_star_rank2",Count:1,Chance:1d}]
+execute if data storage tusb_mob: Extra{MutatedSpawn:1b} in area:control_area run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1]."遅延ステータス"."ステータス".LootTable append value [{Loot:"item:item/carrot_on_a_stick/enjoy_memory_star_rank2_ex",Count:1,Chance:1d}]
