@@ -332,6 +332,11 @@
           "weight": 10,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/block/water"
+        },
+        {
+          "weight": 36,
+          "type": "loot_table",
+          "name": "item:item/elytra/ordinary_wings"
         }
       ]
     }

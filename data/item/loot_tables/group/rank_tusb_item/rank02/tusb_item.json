@@ -222,6 +222,11 @@
           "weight": 28,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/who_dropped_items_into_abyss"
+        },
+        {
+          "weight": 36,
+          "type": "loot_table",
+          "name": "item:item/elytra/ordinary_wings"
         }
       ]
     }

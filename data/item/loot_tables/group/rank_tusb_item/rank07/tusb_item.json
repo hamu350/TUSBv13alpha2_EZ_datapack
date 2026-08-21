@@ -107,6 +107,11 @@
           "weight": 2,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/block/cake"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/elytra/strong_wings"
         }
       ]
     }
