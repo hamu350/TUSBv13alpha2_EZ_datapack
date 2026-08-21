@@ -48,5 +48,8 @@ execute in area:skylands positioned 39 6 -557 if entity @a[distance=..10] if blo
 ### 固定村人 奈落落ち回避
 execute as @e[type=villager,tag=!Mob] at @s if entity @s[y=-51,dy=50] run function area:villager_point/tp
 
+### mp_barセット
+execute as @a run function player:mp_bar/set
+
 ### 追加： hamu_check
 execute unless data storage tusb_player: {hamu_350:true} in area:flying_island positioned -789 96 -773 as @e[sort=nearest,distance=..3,limit=1,type=item] run function tusb_ez:check_hamu
