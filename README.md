@@ -21,7 +21,7 @@ Minecraft 配布ワールド 「The Unusual SkyBlock v13α EZ」データパッ�
 - description.md
 主な変更点まとめ
 
-- ルートテーブルの詳細＋隠し要素.md
+- data_modify.md
 ネタバレ注意の仕様変更まとめ
 
 > [!NOTE]
